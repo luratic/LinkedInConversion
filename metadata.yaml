@@ -1,0 +1,5 @@
+homepage: "https://www.luratic.com"
+documentation: "https://www.luratic.com/posts/templates/tags/pipedrive-leadbooster-chatbot/"
+versions:
+  - sha: e98e19f452a90b7869ab985deddef78f98b98801
+    changeNotes: Initial release
