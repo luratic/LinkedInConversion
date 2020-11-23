@@ -79,7 +79,7 @@ const encodeUriComponent = require('encodeUriComponent');
 const pid = encodeUriComponent(data.partnerId);
 const conversionId =  encodeUriComponent(data.conversionId);
 
-var trackingUrl = 'https://px.ads.linkedin.com/collect/?pid=' + pid + '&conversionId=' + data.conversionId + '&fmt=gif&cb=' + getTimestamp(); 
+var trackingUrl = 'https://px.ads.linkedin.com/collect/?pid=' + pid + '&conversionId=' + conversionId + '&fmt=gif&cb=' + getTimestamp(); 
 
 sendPixel(trackingUrl,data.gtmOnSuccess,data.gtmOnFailure);
 
